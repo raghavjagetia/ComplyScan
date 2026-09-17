@@ -1,0 +1,24 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Generated / runtime data (recreated automatically on startup)
+data/*.json
+backend/static/uploads/*
+backend/static/reports/*
+backend/static/samples/*
+!backend/static/uploads/.gitkeep
+!backend/static/reports/.gitkeep
+!backend/static/samples/.gitkeep
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
